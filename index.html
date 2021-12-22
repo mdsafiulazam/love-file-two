@@ -13,7 +13,7 @@
             font-weight: 600;
         }
         .section{
-            width: 1300px;
+            max-width: 1300px;
             background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(love.jpg);
             background-repeat: no-repeat;
             background-size: cover;
@@ -43,6 +43,45 @@
             border:none;
             font-weight:bold
         }
+          @media  only screen and (max-width: 768px){
+     section{
+         height: 65vh;}
+            h2{
+                font-size: 30px;
+            } 
+            h3{
+                font-size: 25px;
+            }
+            button{
+                font-size: 20px;
+            }
+    }
+           @media  only screen and (max-width: 540px){
+     section{
+         height: 65vh;}
+            h2{
+                font-size: 30px;
+            } 
+            h3{
+                font-size: 25px;
+            }
+            button{
+                font-size: 20px;
+            }
+    }
+           @media  only screen and (max-width: 268px){
+     section{
+         height: 65vh;}
+            h2{
+                font-size: 30px;
+            } 
+            h3{
+                font-size: 20px;
+            }
+            button{
+                font-size: 20px;
+            }
+    }
         
     </style>
 </head>
